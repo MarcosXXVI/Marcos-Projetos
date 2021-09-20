@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+  
+    <!--Popup para a página de mais informações-->
+    <script language=javascript type="text/javascript">
+    function maisInformacao(){
+        newWindow = window.open ('', 'pagina de informações.');
+        newWindow.document.write("<center><h1> Mais Detalhes - Ex_Machina </h1></center>");
+        newWindow.document.write ("<center><p> <h2> Empregado na maior empresa de informática do mundo aos 26 anos, Caleb vence uma competição </br> para isolar-se com o executivo-chefe da empresa. No local, ele participa de um inovador experimento de inteligência artificial.</h2></center>");
+       
+    }
+    </script>
+    
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+  
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <!--alt + shift + seta para baixo. Clona o código -->
+                <a href="#">Inicio</a>
+                <a href="/style/Paginas/serie.html">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+<!--conteúdo Principal-->
+    <main>
+        <!--Digitar div.nomeDaClasse cria a tag abaixo-->
+        <div class="filmePrincipal">
+            <div class="container">
+                <h3 class="titulo">EX_MACHINA</h3>
+                <p class="descricao">Um jovem programador chamado Caleb ganha um concurso e recebe a oportunidade de testar uma inteligência artificial criada por Nathan, um brilhante e recluso bilionário. Mas conforme os testes progridem, Caleb descobre que essa inteligência artificial é tão sofisticada e imprevisível que ele não sabe mais em quem confiar.</p>
+            
+                <div class="botoes">
+                    <!--role=button serve para renderizar/confirmar 
+                     que a função desta tag é de fato um botão-->
+                    <a href="https://www.youtube.com/watch?v=-mMcv-yWme8" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="far fa-play-circle"></i>
+                             ASSISTIR AGORA 
+                        </button>
+                    </a>
+                  <!-- Com target="_black" não funciona. Sem ele funciona-->
+                    <a href="javascript:maisInformacao()">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>  
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- Script para funcionar ícones do fontaweasome-->
+    <script src="https://kit.fontawesome.com/737bf5cae0.js"></script>
+
+
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+</body>
+</html>
