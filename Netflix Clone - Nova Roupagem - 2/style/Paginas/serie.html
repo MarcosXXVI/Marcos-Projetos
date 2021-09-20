@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+  <!--- O que faz?--> <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/serie.css">
+    <title>Netflix Séries</title>
+
+    <!--Script mousemove-->
+    <script type="text/javascript" src="/js/serie.js"></script>
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsiveSerie.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2 class="logo">SÉRIEFLIX</h2>
+            </div>
+            <nav>
+                <a href="/style/Paginas/index.html">Inicio</a>
+                <a href="#"><u>Séries</u></a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="seriePrincipal">
+            <div class="container">
+
+                <h3 class="titulo">La Casa de Papel</h3>
+                <p class="descricao">Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda...</p>
+                <div class="botoes">
+                    <!--role=button serve para renderizar/confirmar 
+                     que a função desta tag é de fato um botão-->
+                    <a href="https://www.youtube.com/watch?v=pK1cWze6ozY" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="far fa-play-circle"></i>
+                             ASSISTIR AGORA 
+                        </button>
+                    </a>
+                  <!-- Com target="_black" não funciona. Sem ele funciona-->
+                    <a href="javascript:maisInformacao()">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
+                </div>  
+            </div>
+        </div>
+        <div class="titulo">
+            <h2>Assista outras séries</h2>
+        </div>
+        <div class="outraSerie">
+            <div class="container">
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini1.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini2.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini3.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini4.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini5.jpg" alt="capa da serie">
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini6.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini7.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini8.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini9.jpg" alt="capa da serie">
+                    </a>
+                </div>
+                <div class="serie zoom" >
+                    <a href="#" alt="">
+                        <img src="/img/Séries/mini10.jpg" alt="capa da serie">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="titulo">
+            <h2>Destaques da semana</h2>
+        </div>
+        <div class="wrapper"> 
+            <div class="destaque">
+                <div class="texto">
+                    <div class="titulo">
+                        <h2>The Flash</h2>
+                    </div>
+                    <div class="sinopse">
+                        <p>Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.</p>
+                    </div>
+                </div>
+                <div class="figura">
+                    <div class="imagem">
+                        <a href="#" alt="">
+                            <img id="img1" onmouseover="trocarImagem()" onmouseout="retornarImagem()" src="/img/Séries/mini12.jpg" alt="Capa da série">     
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="destaque">
+                <div class="texto">
+                    <div class="titulo">
+                        <h2>The Good Doctor</h2>
+                    </div>
+                    <div class="sinopse">
+                        <p>Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.</p>
+                    </div>
+                </div>
+                <div class="figura">
+                    <div class="imagem">
+                        <a href="#" alt="">
+                            <img id="img2" onmouseover="trocarImagem2()" onmouseout="retornarImagem2()" src="/img/Séries/mini13.jpg" alt="Capa da série">     
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </main>
+</body>
+</html>

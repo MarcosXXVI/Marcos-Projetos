@@ -1,0 +1,138 @@
+@media screen and (max-width:1080px){
+    .seriePrincipal .container .titulo{
+        font-size: 40px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .wrapper .destaque{
+        margin: 4%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:800px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+
+    header .logo{
+        margin-bottom: 1%;
+    }
+
+    .seriePrincipal .container .titulo{
+        font-size: 20px;
+    }
+    .seriePrincipal .container .descricao{
+        font-size: 16px;
+    }
+    .wrapper .destaque .texto .titulo{
+        font-size: 20px;
+    }
+    .wrapper .destaque .texto .sinopse{
+        font-size: 19px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .wrapper .destaque{
+        margin: 1%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .seriePrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .seriePrincipal .container{
+        width: 100%;
+        align-items: center;
+        background-position: top;
+    }
+
+    .seriePrincipal .container .titulo{
+        font-size: 30px;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .seriePrincipal .container .descricao{
+        text-align: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 19px;
+        margin-top: 50%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .seriePrincipal .container .botoes{
+        width: 100%;
+        align-items: center;
+    }
+
+    .seriePrincipal .container .botao{
+        width: 90%;
+        height: 10%;
+        margin: 1%;
+        margin-left: 5%;
+        padding: 1%;
+    }
+
+    .wrapper .destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+    }
+
+    .wrapper .destaque .texto{
+        width: 100%;
+    }
+
+    .wrapper .destaque .texto .titulo{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .wrapper .destaque .texto .sinopse{
+        font-size: 19px;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .wrapper .destaque .figura{
+        margin-bottom: 1%;
+        width: 60%;
+    }
+
+    .outraSerie .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1%;
+        align-items: center;
+    }
+
+    .outraSerie .container .serie{
+        width: 60%;
+    }
+}
